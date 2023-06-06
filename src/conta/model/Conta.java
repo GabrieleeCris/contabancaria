@@ -1,6 +1,7 @@
 package conta.model;
 
-public class Conta {
+public abstract class Conta{
+	
  private int numero;
  private int agencia;
  private int tipo;
@@ -80,5 +81,6 @@ public boolean sacar(float valor) {
 
 	}
   
+
 }
-}
+
