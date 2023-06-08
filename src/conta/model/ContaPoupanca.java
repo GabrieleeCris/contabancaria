@@ -1,6 +1,6 @@
 package conta.model;
 
-public class ContaPoupanca {
+public class ContaPoupanca extends Conta {
 	private int aniversario;
 
 	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, int aniversario) {
@@ -8,6 +8,7 @@ public class ContaPoupanca {
 		this.aniversario = aniversario;
 	}
 
+	
 	public int getAniversario() {
 		return aniversario;
 	}
